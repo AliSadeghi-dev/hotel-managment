@@ -19,8 +19,17 @@
     ],
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "target": "ES2017"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/context/themeContext.tsط"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/context/themeContext.tsط",
+    "../cms/sanity.config.ts",
+    "../cms/sanity.cli.ts"
+  ],
   "exclude": ["node_modules"]
 }
