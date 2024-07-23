@@ -10,3 +10,27 @@
 * {
   font-family: "Poppins" !important;
 }
+
+.img {
+  @apply object-cover w-full h-full;
+}
+
+.scale-animation {
+  @apply hover:scale-125 transition-all duration-700;
+}
+
+.btn-primary {
+  @apply px-6 md:px-[50px] lg:px-[72px] py-2 md:py-5 bg-primary rounded-lg md:rounded-2xl shadow-sm shadow-primary text-white font-medium;
+}
+
+.btn-tertiary {
+  @apply px-6 md:px-[50px] lg:px-[72px] py-2 md:py-5 bg-tertiary-light rounded-lg md:rounded-2xl shadow-sm shadow-tertiary-light text-white font-medium;
+}
+
+.font-heading {
+  @apply font-medium md:font-semibold md:text-6xl text-3xl;
+}
+
+.btn-primary {
+  @apply text-sm md:text-base;
+}
